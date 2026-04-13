@@ -1,4 +1,6 @@
 import random
+#for graph 
+import matplotlib.pyplot as plt
 
 A_time = 5
 B_time = 8
@@ -50,3 +52,7 @@ print("Average waiting at C:", sum(waiting_C)/len(waiting_C))
 #because other machines wait for it
 #Before optimization time  : 331 seconds 
 #After optimization time : 251 seconds 
+
+plt.plot(waiting_B, label="Waiting at B")
+plt.plot(waiting_C, label="Waiting at C")
+plt.show()
