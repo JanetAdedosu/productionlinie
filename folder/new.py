@@ -34,7 +34,10 @@ for i in range(products):
     time = start_A
 
 print("Total production time:", finish_C)
+print(f"Product {i+1} finished at time {finish_C}")
 
 # now it takes 251 seconds to produce all products thru A-B-C , 
 #machine b was the slowest and create a bottle necks 
 #because other machines wait for it
+#Before optimization time  : 331 seconds 
+#After optimization time : 251 seconds 
