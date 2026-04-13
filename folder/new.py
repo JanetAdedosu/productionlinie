@@ -55,4 +55,9 @@ print("Average waiting at C:", sum(waiting_C)/len(waiting_C))
 
 plt.plot(waiting_B, label="Waiting at B")
 plt.plot(waiting_C, label="Waiting at C")
+plt.xlabel("Product Number")
+plt.ylabel("Waiting Time")
+plt.title("Waiting Time per Product")
+
+plt.legend()
 plt.show()
