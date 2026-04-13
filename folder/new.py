@@ -1,7 +1,7 @@
 import random
 
 A_time = 5
-B_time = 8
+B_time = 6
 C_time = 6
 
 products = 40
