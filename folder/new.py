@@ -34,3 +34,7 @@ for i in range(products):
     time = start_A
 
 print("Total production time:", finish_C)
+
+# now it takes 251 seconds to produce all products thru A-B-C , 
+#machine b was the slowest and create a bottle necks 
+#because other machines wait for it
