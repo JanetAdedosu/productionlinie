@@ -25,3 +25,12 @@ for i in range(products):
     # Machine C
     start_C = max(finish_B, C_free)
     finish_C = start_C + C_time
+
+# update machine availability
+    A_free = finish_A
+    B_free = finish_B
+    C_free = finish_C
+
+    time = start_A
+
+print("Total production time:", finish_C)
